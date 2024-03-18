@@ -15,7 +15,8 @@ import Tabs from '@mui/material/Tabs';
 const StyledPaper = styled(Paper)({
     borderRadius: 10,
     height: 300,
-    width: 450,
+    maxWidth: 450,
+    width: '100%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-evenly',
@@ -26,7 +27,8 @@ const StyledPaper = styled(Paper)({
 const SmallPaper = styled(Paper)({
     borderRadius: 10,
     height: 50,
-    width: 450,
+    maxWidth: 450,
+    width: '100%',
     display: 'flex',
     alignItems: 'center',
     marginInline: 10,
