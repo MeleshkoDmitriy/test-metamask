@@ -1,4 +1,4 @@
-### MetaMask TestTask <a href='https://main--beamish-piroshki-199c0e.netlify.app/'>DEMO</a>
+### MetaMask TestTask <a href='https://main--beamish-piroshki-199c0e.netlify.app/'>DEMO LINK</a>
 
 <h3>TypeScript, React, NextJS, SCSS-module, Material-UI</h3>
 
