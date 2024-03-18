@@ -1,0 +1,91 @@
+@import '../../../src/app/variables.scss';
+
+.wallet {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userBalance {
+    color: $colorGray;
+    padding-inline: 10px;
+}
+
+.addressBlock {
+    display: flex;
+    align-items: center;
+    color: $colorGray;
+    padding-inline: 10px;
+
+    .address {
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+    }
+}
+
+.iconButton {
+    color: $colorGray;
+    transition: $transition;
+    
+    &:hover {
+        color: $colorBlue;
+    }
+}
+
+.balances {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding-inline: 10px;
+}
+
+.item {
+    background-color: $colorGrayLight;
+    color: $colorBlack;
+    border-radius: $radius;
+    flex: 1 1 50%;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+    transition: $transition;
+
+    .counter {
+        margin-left: 10px;
+        font-size: 20px;
+        transition: $transition;
+    }
+
+    &:hover {
+        background-color: $colorGray;
+
+        .counter {
+            color: $colorWhite;
+        }
+    }
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-inline: 10px;
+
+    .input {
+        flex: 1 1 auto;
+    }
+
+    .button {
+        background-color: $colorBlue;
+    }
+}
+
+.active {
+    background-color: $colorBlue;
+    color: $colorWhite;
+    border-radius: $radius;
+    box-shadow: 2px 2px 2px $colorGray;
+}
